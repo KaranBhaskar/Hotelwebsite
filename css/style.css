@@ -3,10 +3,14 @@
     margin: 0;
     padding: 0;
 }
-/* main styling i.e core body, links and heading  */
+/* utility class */
+.dark-nav{
+    background-color: #333;
+    overflow: auto;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
+    line-height: 1.6em;
 }
 a{
     text-decoration: none;
@@ -19,12 +23,52 @@ a{
     overflow: auto;
     padding:0 20px;
 }
+.clr{
+clear: both;
+}
+.text-light{
+    color:#f7c08a;
+}
+.btn-light{
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding:12px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+    border:none;
+}
+.btn-light:hover{
+    background-color:#f7c08a ;
+}
+.btn{
+    display: inline-block;
+    background-color: #333;
+    padding:12px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+
+}
+.btn:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
+.bg-dark{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-og{
+    background-color: #f7c08a;
+    color: #333;
+}
 
 /* nav-bar */
-header{
-    background-color: #333;
-    overflow: auto;
-}
 
 nav h1{
     float: left;
@@ -47,4 +91,85 @@ nav ul li a:hover,
 .current{
   color:#f7c08a;
   background-color: #444;
+}
+
+/* showcase */
+.showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.showcase h1{
+    padding-top: 170px;
+    font-size: 60px;
+}
+
+.showcase p{
+    padding: 60px 0px 40px 0px;
+    font-size:20px;
+}
+
+/* home info page */
+.home-info{
+    height:400px;
+}
+.img-info{
+    background: url('../img/photo-1.jpg') no-repeat center /cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.info{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    overflow: auto;
+}
+
+.info h2{
+    padding: 30px 0px;
+}
+.info p{
+    padding: 0 20px 30px 20px;
+}
+
+/* hotel info */
+
+.hotel-info{
+    height: 400px;
+}
+
+.hotel-info section{
+    float:left;
+    width:33.3%;
+    min-height: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    overflow: auto;
+}
+
+.hotel-info section i{
+    padding: 40px 0;
+}
+
+.hotel-info section h3{
+    padding-bottom: 40px;
+}
+
+.hotel-info section p{
+    padding: 0px 20px 0 20px;
+}
+
+/* Footer */
+
+footer{
+    padding:20px 0px;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 15px ;
 }
