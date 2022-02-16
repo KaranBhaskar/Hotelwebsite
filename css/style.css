@@ -104,6 +104,7 @@ nav ul li a:hover,
 .showcase h1{
     padding-top: 170px;
     font-size: 60px;
+    line-height: 1.1;
 }
 
 .showcase p{
@@ -185,7 +186,7 @@ footer{
 
 .content-about{
     text-align: center;
-
+    line-height: 1.2;
     height :500px;
 }
 
